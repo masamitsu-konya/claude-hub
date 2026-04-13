@@ -1,0 +1,88 @@
+import { TypeInfo } from "./types"
+
+export const entryTypes: TypeInfo[] = [
+  {
+    id: "skill",
+    name: "Skill",
+    nameJa: "スキル",
+    icon: "⚡",
+    description: "SKILL.mdファイル。トリガー発言で起動するワークフロー定義",
+  },
+  {
+    id: "plugin",
+    name: "Plugin",
+    nameJa: "プラグイン",
+    icon: "🔌",
+    description: "スキル・フック・エージェント・MCPをバンドルした配布パッケージ",
+  },
+  {
+    id: "mcp-server",
+    name: "MCP Server",
+    nameJa: "MCPサーバー",
+    icon: "🔗",
+    description: "外部ツール・APIとClaude Codeを接続するサーバー",
+  },
+  {
+    id: "claude-md",
+    name: "CLAUDE.md",
+    nameJa: "CLAUDE.md",
+    icon: "📝",
+    description: "プロジェクト設定ファイル。役割・ルール・コンテキストを定義",
+  },
+  {
+    id: "subagent",
+    name: "Subagent",
+    nameJa: "サブエージェント",
+    icon: "🤖",
+    description: "特定の役割を持つカスタムエージェント定義",
+  },
+  {
+    id: "hook",
+    name: "Hook",
+    nameJa: "フック",
+    icon: "🪝",
+    description: "イベント駆動の自動化（セッション開始、ツール実行前後等）",
+  },
+  {
+    id: "rule",
+    name: "Rule",
+    nameJa: "ルール",
+    icon: "📏",
+    description: ".claude/rules/配下の常時読み込みルールファイル",
+  },
+  {
+    id: "template",
+    name: "Template",
+    nameJa: "テンプレート",
+    icon: "📋",
+    description: "CLAUDE.mdやスキルのスターターテンプレート",
+  },
+  {
+    id: "course",
+    name: "Course / Guide",
+    nameJa: "コース・ガイド",
+    icon: "🎓",
+    description: "学習リソース、チュートリアル、ハウツー記事",
+  },
+  {
+    id: "guide",
+    name: "Article / Blog",
+    nameJa: "記事・ブログ",
+    icon: "📖",
+    description: "活用事例、ベストプラクティス、設定ガイド",
+  },
+  {
+    id: "awesome-list",
+    name: "Awesome List",
+    nameJa: "まとめリスト",
+    icon: "⭐",
+    description: "キュレーションされたリソース集",
+  },
+  {
+    id: "marketplace",
+    name: "Marketplace",
+    nameJa: "マーケットプレイス",
+    icon: "🏪",
+    description: "プラグイン・スキルの検索・配布プラットフォーム",
+  },
+]
